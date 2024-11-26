@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+
+header {
+	background-color: white;
+	box-shadow: 0px 2px 6px #2c39791a;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 40px 16px 40px;
+}
+
+.header__logo {
+	background-image: url(/Exclude.png);
+	width: 72px;
+	height: 16px;
+}
+
+.header__button {
+	background-image: url(/icon-button.png);
+	width: 32px;
+	height: 32px;
+}
+
+.header__link {
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	text-decoration: none;
+
+	padding: 4px 12px 4px 12px;
+	transition: 0.25s ease;
+}
+
+.header__link:hover {
+	background-color: #60c2aa;
+	border-radius: 20px;
+	color: white;
+	transition: 0.25s ease;
+}
+
+.header__list {
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+
+/* hover */
